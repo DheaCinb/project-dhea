@@ -1,0 +1,22 @@
+CRITICAL - 2023-05-24 06:01:54 --> Undefined array key "pesan"
+in APPPATH\Controllers\PesanController.php on line 8.
+ 1 APPPATH\Controllers\PesanController.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesan"', 'D:\\ci-pro\\app\\Controllers\\PesanController.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-24 06:14:54 --> Undefined array key "pesan"
+in APPPATH\Controllers\PesanController.php on line 8.
+ 1 APPPATH\Controllers\PesanController.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesan"', 'D:\\ci-pro\\app\\Controllers\\PesanController.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-24 07:22:08 --> Cannot use App\Controllers\Pages as Pages because the name is already in use
+in APPPATH\Config\Routes.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-24 07:22:18 --> Cannot use App\Controllers\Pages as Pages because the name is already in use
+in APPPATH\Config\Routes.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

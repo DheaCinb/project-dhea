@@ -1,0 +1,226 @@
+INFO - 2023-06-11 05:09:31 --> CSRF token verified.
+INFO - 2023-06-11 05:10:29 --> CSRF token verified.
+INFO - 2023-06-11 05:26:12 --> CSRF token verified.
+ERROR - 2023-06-11 05:26:12 --> mysqli_sql_exception: Column 'kelas_praktikum' cannot be null in D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 D:\ci-pro\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ci-pro\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ci-pro\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ci-pro\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\ci-pro\app\Models\AsistenModel.php(17): CodeIgniter\BaseModel->save(Array)
+#9 D:\ci-pro\app\Controllers\AsistenController.php(36): App\Models\AsistenModel->simpan(Array)
+#10 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+#11 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+#12 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\ci-pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\ci-pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\publi...')
+#15 {main}
+CRITICAL - 2023-06-11 05:26:12 --> Column 'kelas_praktikum' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (\'215314110\', \'Dhea Cindera Bantala\', NULL, \'3.6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (\'215314110\', \'Dhea Cindera Bantala\', NULL, \'3.6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (\'215314110\', \'Dhea Cindera Bantala\', NULL, \'3.6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (:nim.1:, :nama:, :kelas_praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\AsistenModel.php(17): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenController.php(36): App\Models\AsistenModel->simpan([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+INFO - 2023-06-11 05:27:15 --> CSRF token verified.
+ERROR - 2023-06-11 05:27:16 --> mysqli_sql_exception: Column 'kelas_praktikum' cannot be null in D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 D:\ci-pro\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ci-pro\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ci-pro\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ci-pro\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\ci-pro\app\Models\AsistenModel.php(17): CodeIgniter\BaseModel->save(Array)
+#9 D:\ci-pro\app\Controllers\AsistenController.php(36): App\Models\AsistenModel->simpan(Array)
+#10 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+#11 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+#12 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\ci-pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\ci-pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\publi...')
+#15 {main}
+CRITICAL - 2023-06-11 05:27:16 --> Column 'kelas_praktikum' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (\'215314110\', \'Dhea Cindera Bantala\', NULL, \'3.9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (\'215314110\', \'Dhea Cindera Bantala\', NULL, \'3.9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (\'215314110\', \'Dhea Cindera Bantala\', NULL, \'3.9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (:nim.1:, :nama:, :kelas_praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\AsistenModel.php(17): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenController.php(36): App\Models\AsistenModel->simpan([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+INFO - 2023-06-11 05:29:26 --> CSRF token verified.
+ERROR - 2023-06-11 05:29:26 --> mysqli_sql_exception: Column 'kelas_praktikum' cannot be null in D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 D:\ci-pro\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ci-pro\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ci-pro\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ci-pro\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\ci-pro\app\Models\AsistenModel.php(17): CodeIgniter\BaseModel->save(Array)
+#9 D:\ci-pro\app\Controllers\AsistenController.php(36): App\Models\AsistenModel->simpan(Array)
+#10 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+#11 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+#12 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\ci-pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\ci-pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\publi...')
+#15 {main}
+CRITICAL - 2023-06-11 05:29:26 --> Column 'kelas_praktikum' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (\'215314110\', \'Dhea Cindera Bantala\', NULL, \'3.9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (\'215314110\', \'Dhea Cindera Bantala\', NULL, \'3.9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (\'215314110\', \'Dhea Cindera Bantala\', NULL, \'3.9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `kelas_praktikum`, `ipk`) VALUES (:nim.1:, :nama:, :kelas_praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\AsistenModel.php(17): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenController.php(36): App\Models\AsistenModel->simpan([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+INFO - 2023-06-11 05:31:40 --> CSRF token verified.
+INFO - 2023-06-11 05:32:04 --> CSRF token verified.
+ERROR - 2023-06-11 05:32:04 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `as...', 0)
+#1 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `as...')
+#2 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `as...')
+#3 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `as...', Array, false)
+#4 D:\ci-pro\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\ci-pro\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\ci-pro\app\Models\AsistenModel.php(38): CodeIgniter\BaseModel->delete()
+#7 D:\ci-pro\app\Controllers\AsistenController.php(82): App\Models\AsistenModel->hapus(Array)
+#8 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenController->delete()
+#9 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+#10 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ci-pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ci-pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\publi...')
+#13 {main}
+CRITICAL - 2023-06-11 05:32:04 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `asisten`
+WHERE `nim` = (\'215314110\',NULL,NULL,NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `asisten`
+WHERE `nim` = (\'215314110\',NULL,NULL,NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `asisten`
+WHERE `nim` = (\'215314110\',NULL,NULL,NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `asisten`
+WHERE `nim` = :nim:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\AsistenModel.php(38): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\AsistenController.php(82): App\Models\AsistenModel->hapus([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->delete()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+INFO - 2023-06-11 05:34:34 --> CSRF token verified.
+INFO - 2023-06-11 05:35:49 --> CSRF token verified.
+INFO - 2023-06-11 05:38:07 --> CSRF token verified.
+ERROR - 2023-06-11 05:38:07 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `as...', 0)
+#1 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `as...')
+#2 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `as...')
+#3 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `as...', Array, false)
+#4 D:\ci-pro\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\ci-pro\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\ci-pro\app\Models\AsistenModel.php(38): CodeIgniter\BaseModel->delete()
+#7 D:\ci-pro\app\Controllers\AsistenController.php(82): App\Models\AsistenModel->hapus(Array)
+#8 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenController->delete()
+#9 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+#10 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ci-pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ci-pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\publi...')
+#13 {main}
+CRITICAL - 2023-06-11 05:38:07 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `asisten`
+WHERE `nim` = (\'215314110\',NULL,NULL,NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `asisten`
+WHERE `nim` = (\'215314110\',NULL,NULL,NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `asisten`
+WHERE `nim` = (\'215314110\',NULL,NULL,NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `asisten`
+WHERE `nim` = :nim:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\AsistenModel.php(38): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\AsistenController.php(82): App\Models\AsistenModel->hapus([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->delete()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+INFO - 2023-06-11 05:39:17 --> CSRF token verified.
+ERROR - 2023-06-11 05:39:17 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ci-pro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `as...', 0)
+#1 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `as...')
+#2 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `as...')
+#3 D:\ci-pro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `as...', Array, false)
+#4 D:\ci-pro\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\ci-pro\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\ci-pro\app\Models\AsistenModel.php(38): CodeIgniter\BaseModel->delete()
+#7 D:\ci-pro\app\Controllers\AsistenController.php(82): App\Models\AsistenModel->hapus(Array)
+#8 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenController->delete()
+#9 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+#10 D:\ci-pro\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ci-pro\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\ci-pro\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\publi...')
+#13 {main}
+CRITICAL - 2023-06-11 05:39:17 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `asisten`
+WHERE `nim` = (\'215314110\',NULL,NULL,NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `asisten`
+WHERE `nim` = (\'215314110\',NULL,NULL,NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `asisten`
+WHERE `nim` = (\'215314110\',NULL,NULL,NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `asisten`
+WHERE `nim` = :nim:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\AsistenModel.php(38): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\AsistenController.php(82): App\Models\AsistenModel->hapus([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->delete()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+INFO - 2023-06-11 05:41:19 --> CSRF token verified.
+INFO - 2023-06-11 05:46:13 --> CSRF token verified.
+INFO - 2023-06-11 05:47:17 --> CSRF token verified.
+INFO - 2023-06-11 05:48:10 --> CSRF token verified.
+INFO - 2023-06-11 06:16:22 --> CSRF token verified.

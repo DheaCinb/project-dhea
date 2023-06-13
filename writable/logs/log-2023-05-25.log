@@ -1,0 +1,108 @@
+CRITICAL - 2023-05-25 04:11:03 --> Undefined array key "pesan"
+in APPPATH\Controllers\PesanController.php on line 8.
+ 1 APPPATH\Controllers\PesanController.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesan"', 'D:\\ci-pro\\app\\Controllers\\PesanController.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:12:57 --> Undefined array key "nama"
+in APPPATH\Controllers\Pesan.php on line 13.
+ 1 APPPATH\Controllers\Pesan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\ci-pro\\app\\Controllers\\Pesan.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:14:26 --> Undefined array key "nama"
+in APPPATH\Controllers\Pesan.php on line 13.
+ 1 APPPATH\Controllers\Pesan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\ci-pro\\app\\Controllers\\Pesan.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:15:59 --> Undefined array key "nama"
+in APPPATH\Controllers\Pesan.php on line 13.
+ 1 APPPATH\Controllers\Pesan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\ci-pro\\app\\Controllers\\Pesan.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:16:41 --> Undefined array key "nama"
+in APPPATH\Controllers\Pesan.php on line 13.
+ 1 APPPATH\Controllers\Pesan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\ci-pro\\app\\Controllers\\Pesan.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:16:55 --> Undefined array key "nama"
+in APPPATH\Controllers\Pesan.php on line 13.
+ 1 APPPATH\Controllers\Pesan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\ci-pro\\app\\Controllers\\Pesan.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:26:32 --> Undefined variable $nim
+in APPPATH\Views\tampil.php on line 14.
+ 1 APPPATH\Views\tampil.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nim', 'D:\\ci-pro\\app\\Views\\tampil.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\ci-pro\\app\\Views\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tampil', [], true)
+ 5 APPPATH\Controllers\PesanController.php(9): view('tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:27:58 --> Undefined variable $nim
+in APPPATH\Views\tampil.php on line 14.
+ 1 APPPATH\Views\tampil.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nim', 'D:\\ci-pro\\app\\Views\\tampil.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\ci-pro\\app\\Views\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tampil', [], true)
+ 5 APPPATH\Controllers\PesanController.php(9): view('tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:28:04 --> Undefined variable $nim
+in APPPATH\Views\tampil.php on line 14.
+ 1 APPPATH\Views\tampil.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nim', 'D:\\ci-pro\\app\\Views\\tampil.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\ci-pro\\app\\Views\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tampil', [], true)
+ 5 APPPATH\Controllers\PesanController.php(9): view('tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:42:46 --> Undefined array key "nama"
+in APPPATH\Controllers\Pesan.php on line 8.
+ 1 APPPATH\Controllers\Pesan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\ci-pro\\app\\Controllers\\Pesan.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:45:42 --> Undefined array key "pesan"
+in APPPATH\Controllers\PesanController.php on line 8.
+ 1 APPPATH\Controllers\PesanController.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesan"', 'D:\\ci-pro\\app\\Controllers\\PesanController.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
+CRITICAL - 2023-05-25 04:46:50 --> Undefined array key "pesan"
+in APPPATH\Controllers\PesanController.php on line 8.
+ 1 APPPATH\Controllers\PesanController.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesan"', 'D:\\ci-pro\\app\\Controllers\\PesanController.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PesanController->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ci-pro\\public\\index.php')
